@@ -25,7 +25,7 @@ public class PoolExample {
             final int number = i;
 
 
-            while (executor.getActiveCount() ==3){
+            while (executor.getActiveCount() == 3){
                 Thread.sleep(10);
             }
 
